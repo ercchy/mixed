@@ -1,0 +1,132 @@
+.level2 {
+  background-color: #353E44;
+  color: #BBBBBB;
+
+  .block {
+    padding: 20px;
+  }
+
+  h4 {
+    color: #ffffff;
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .newsletter {
+    form {
+      margin: 20px 0;
+      input {
+        background-color: #40484D;
+        border-color: #40484D;
+        color: #BBBBBB;
+      }
+
+      .input-group-addon {
+        background-color: @brand-primary;
+        color: #ffffff;
+        border: 0;
+
+        a {
+          color: #ffffff;
+          display: block;
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  .org-info {
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+
+      border-bottom: dotted 1px #BBBBBB;
+
+      &:last-child {
+        border-bottom-color: transparent;
+      }
+
+      a {
+        padding: 10px 10px 10px 20px;
+        display: block;
+        position: relative;
+        color: #BBBBBB;
+
+        &:hover {
+          text-decoration: none;
+          color: #ffffff;
+        }
+
+        &:before {
+          content: ">";
+          position: absolute;
+          left: 0;
+        }
+      }
+    }
+  }
+
+  .get-touch {
+    ul {
+      list-style-type: none;
+      padding: 0;
+
+    }
+
+    li {
+      padding: 10px 0;
+      font-size: 15px;
+      
+      .fa {
+        padding: 0 15px 0 0;
+      }
+      span {
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+.level3 {
+  background-color: #262C31;
+  color: #A0A9B1;
+  padding: 20px 0;
+
+  .developed-by {
+    float: left;
+    font-size: 13px;
+  }
+
+  .navbar {
+    float: right;
+    min-height: 0;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+    }
+
+    li {
+      display: inline-block;
+      font-size: 13px;
+
+      &:last-child {
+        &:after {
+          content: "";
+        }
+      }
+
+      &:after {
+        content: "/";
+        padding: 0 10px;
+
+      }
+    }
+
+  }
+}

@@ -1,0 +1,96 @@
+.navbar {
+  margin-bottom: 0;
+}
+
+.info-social {
+  font-family: "Open sans";
+
+  .container {
+    padding: 0;
+  }
+
+  .info, .social {
+    list-style-type: none;
+    padding: 23px 0;
+    float: left;
+
+    li {
+      display: inline-block;
+      font-size: 12px;
+    }
+  }
+
+  .social {
+    float: right;
+    li {
+      font-size: 16px;
+      color: @brand-primary;
+    }
+  }
+
+  .icon {
+    padding-right: 20px;
+  }
+
+  .tel-number:before, .contact-us:before {
+    font-family: FontAwesome;
+    padding: 3px;
+    color: @brand-primary;
+  }
+
+  .tel-number:before {
+    content: @fa-var-phone;
+
+  }
+
+  .contact-us:before {
+    content: @fa-var-envelope-o;
+  }
+}
+
+.navbar {
+
+  .navbar-brand {
+    padding-left: 40px;
+    position: relative;
+
+    &:before {
+      content: "";
+      background: url("../images/logo.png") left center no-repeat;
+      position: absolute;
+      width: 36px;
+      height: 31px;
+      left: 0;
+    }
+
+    .logo-name {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 23px;
+      text-transform: uppercase;
+      color: @font-color;
+    }
+    .sub-logo {
+      font-family: 'Open Sans' Helvetica;
+      font-size: 13px;
+      color: #999999;
+    }
+  }
+
+  .navbar-nav {
+    font-family: Arial, Helvetica, sans-serif;
+
+    & > li > a {
+      line-height: 35px;
+      font-size: 13px;
+      text-transform: uppercase;
+      color: @font-color;
+      border-top: 3px solid transparent;
+
+      &:hover, &:focus, &.active {
+        background-color: transparent;
+        border-color: @brand-primary;
+        color: @brand-primary;
+      }
+    }
+  }
+}

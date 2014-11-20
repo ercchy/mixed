@@ -1,0 +1,61 @@
+.jumbotron {
+  padding: 0;
+
+  #gradient.horizontal(@start-color: #575757; @end-color: #C8C8C8; @start-percent: 0%; @end-percent: 100%);
+
+  .container{
+    display: flex;
+  }
+
+  .advert {
+    padding-top: 20px;
+    position: relative;
+  }
+
+  .over-heading {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 35px;
+    color: @brand-primary;
+  }
+
+  .heading {
+    display: inline;
+    font-family: "Open sans" Helvetica Neue, Helvetica, Arial;
+    font-weight: bold;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: @font-color;
+    box-shadow: 10px 0 0 @font-color, -10px 0 0 @font-color
+  }
+
+  .subheading{
+    font-family: "Open sans" Helvetica Neue;
+    font-size: 17px;
+    line-height: 1.5;
+    margin-top: 25px;
+  }
+
+  .schedule{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+
+  }
+
+  .hours{
+    height: 120px;
+    background-color: @brand-primary;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-top: 20px;
+  }
+
+  .when{
+    font-size: 21px;
+  }
+}
