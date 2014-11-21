@@ -7515,9 +7515,6 @@ footer {
   font-weight: 400;
   color: #ffffff;
 }
-.level1 .container {
-  padding-left: 35px;
-}
 .level1 .btn {
   float: right;
 }
@@ -7623,6 +7620,7 @@ footer {
 .level3 .developed-by {
   float: left;
   font-size: 13px;
+  padding-left: 0;
 }
 .level3 .navbar {
   float: right;
