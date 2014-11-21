@@ -1,0 +1,72 @@
+.section-image {
+  height: 400px;
+  background: url('../images/workout-couple.png') top left no-repeat;
+  background-size: contain;
+}
+
+.section-heading {
+  margin-bottom: 30px;
+  font-family: "Open sans", Helvetica Neue, Helvetica, Arial;
+  font-weight: 600;
+  font-size: 18px;
+  color: @font-color;
+}
+
+.section-collapse {
+  .panel {
+    padding: 6px;
+  }
+  .panel-head {
+    color: @font-color;
+
+    .fa {
+      padding: 10px;
+    }
+  }
+  .panel-body {
+    color: #777777;
+    margin-left: 20px;
+  }
+  .panel-body-link {
+    display: block;
+    font-size: 13px;
+    font-family: "Open sans" Helvetica Neue, Helvetica, Arial;
+    font-style: italic;
+    .pull-right;
+  }
+}
+
+.section-calendar {
+  .calendar-item {
+    margin-bottom: 20px;
+  }
+  .calendar-image {
+    .pull-left;
+    margin-right: 30px;
+  }
+  .calendar-body-wrap {
+    overflow: hidden;
+  }
+  .calendar-time {
+    background-color: @brand-primary;
+    color: #ffffff;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    line-height: 2.2;
+    margin-bottom: 20px;
+
+    .fa {
+      background-color: lighten(@brand-primary, 10%);
+      line-height: 2.2;
+      float: right;
+      padding: 0 10px;
+      color: white;
+    }
+  }
+  .calendar-body {
+    font-size: 13px;
+    color: #000000;
+  }
+
+}
